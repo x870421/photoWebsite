@@ -82,6 +82,7 @@ nav ul li a {
 .search button {
   background-color: #490149;
   color: white;
+  cursor: pointer;
 }
 
 .footer {
