@@ -6,7 +6,7 @@ const Search = ({ search, setInput }) => {
   };
   return (
     <div className="search">
-      <input onChange={inputHandler} type="text" />
+      <input onChange={inputHandler} type="text" placeholder="輸入關鍵字" />
       <button onClick={search}>Search</button>
     </div>
   );

@@ -1,5 +1,6 @@
 .search {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 3rem 0rem;
@@ -13,5 +14,11 @@
     background-color: rgb(73, 1, 73);
     color: white;
     cursor: pointer;
+  }
+  @media (max-width: 540px) {
+    button,
+    input {
+      width: 85%;
+    }
   }
 }
